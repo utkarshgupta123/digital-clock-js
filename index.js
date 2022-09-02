@@ -45,25 +45,25 @@ function ChangeDirection(){
 
     if(w == tym){
         let img =  document.getElementById("component");
-        img.src = "./Capture";
+        img.src = "./Capture.png";
         document.getElementById("gudmorning").innerHTML = ("Good Morning");
         document.getElementById("greet").innerHTML = ("GRAB SOME HEALTHY BREAKFAST!!!");
     }
     else if(x == tym){
         let img =  document.getElementById("component");
-        img.src = "./Capture1.JPG";
+        img.src = "./Capture1.jpg";
         document.getElementById("gudmorning").innerText = ("Good AFternoon !! Time for lunch");
         document.getElementById("greet").innerHTML = ("HAVE SOME HEALTHY LUNCH !!");
     }
     else if(y == tym){
         let img =  document.getElementById("component");
-        img.src = "./Capture2.JPG";
+        img.src = "./Capture2.jpg";
         document.getElementById("gudmorning").innerHTML = ("Good Evening !!");
         document.getElementById("greet").innerText = ("STOP YAWNING AND GRAB TEA !!");
     }
     else if(z == tym){
         let img =  document.getElementById("component");
-        img.src = "./Capture3.JPG";
+        img.src = "./Capture3.jpg";
         document.getElementById("gudmorning").innerHTML = ("Night Night !!");
         document.getElementById("greet").innerHTML = ("CLOSE YOUR EYE'S AND GO TO SLEEP !!");
     }
